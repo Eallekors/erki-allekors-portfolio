@@ -162,7 +162,6 @@ const Home = () => {
       <section className="projects-section" id="projects">
         <h2>Some of my projects</h2>
         <p>Check out some of the projects I've worked on:</p>
-        <p>You can find my other projects <a href="/projects" className="project-link">Here</a></p>
         <div className="projects-grid">
           {/* Example Project Cards */}
           <div className="project-card">
