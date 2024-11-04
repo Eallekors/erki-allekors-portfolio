@@ -1,12 +1,17 @@
+
+body, html {
+  overflow-x: hidden;
+}
 /* Homepage Layout */
 .home-page {
     font-family: Arial, sans-serif;
     color: #333;
+   
   }
   
   /* Hero Section */
   .hero {
-    background-image: url('https://via.placeholder.com/1500x500'); /* Background image for hero section */
+    background-image: url('https://web.programming-hero.com/home/_next/image?url=%2Fhome%2FstaticVersion%2Fbanner%2Fbanner-bg.png&w=3840&q=75'); 
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
@@ -23,6 +28,10 @@
   .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+  .hero-description {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
   }
   
   .cta-button {
@@ -51,13 +60,32 @@
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
+  .about-section p {
+    width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center; /* Optional, for consistent text alignment */
+  }
   
   .learn-more {
     text-decoration: none;
     color: #ff6347;
     font-weight: bold;
   }
-  
+  /* Experience Section*/
+    .experience-item {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center; /* Optional, for consistent text alignment */
+    }
+
+    #experience h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
   /* Projects Section */
   .projects-section {
     padding: 3rem 1rem;
@@ -80,7 +108,6 @@
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
     overflow: hidden;
   }
   
@@ -112,7 +139,7 @@
  
   /* Skills Section */
 .skills-section {
-    padding: 3rem 1rem;
+    padding: 3rem 5rem;
     text-align: center;
   }
   
@@ -130,6 +157,8 @@
   
   .skill-icon {
     margin-right: 1rem;
+    width: 40px;
+    height: 40px;
   }
   
   .skill-info {
@@ -150,16 +179,16 @@
     position: relative;
   }
   
-  /* Add this to your existing CSS */
+ 
 .progress {
     background-color: #ff6347;
     height: 100%;
     border-radius: 5px;
     text-align: right;
     color: white;
-    line-height: 20px; /* Center the percentage text */
-    padding-right: 5px; /* Space for text */
-    width: 0; /* Start at 0% width */
-    transition: width 2s ease-in-out; /* Smooth transition */
+    line-height: 20px; 
+    padding-right: 5px; 
+    width: 0; 
+    transition: width 2s ease-in-out; 
   }
   

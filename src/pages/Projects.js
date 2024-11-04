@@ -3,17 +3,30 @@ import './Projects.css'; // Importing the CSS file for styling
 
 const projectsData = [
   {
-    title: "Project 1",
-    description: "This is a description of project 1. It covers X, Y, and Z features.",
-    image: "https://via.placeholder.com/300", // Replace with actual image URL
-    link: "https://github.com/your-username/project-1"
+    title: "Client project",
+    description: "Website that was created for a client turning school course",
+    image: require('../assets/pictures/West.png'), // Replace with actual image URL
+    link: "https://westcar.eu/"
   },
   {
-    title: "Project 2",
-    description: "This is a description of project 2. It focuses on A, B, and C.",
-    image: "https://via.placeholder.com/300", // Replace with actual image URL
-    link: "https://github.com/your-username/project-2"
+    title: "Competition Aasta tegija 2024 project",
+    description: "Website that was created from the design we were given for the competition",
+    image: require('../assets/pictures/aasta.png'), // Replace with actual image URL
+    link: "https://eallekors.github.io/Aasta-Tegija-24/"
   },
+  {
+    title: "Intership project",
+    description: "Website that i created when i was an intern in germany",
+    image: require('../assets/pictures/Intern.png'), // Replace with actual image URL
+    link: "https://github.com/Eallekors/DomainChecker/"
+  },
+  {
+    title: "Most of my other projects",
+    description: "My github with the projects that have been done in school",
+    image: require('../assets/pictures/github.png'), // Replace with actual image URL
+    link: "https://github.com/Eallekors/"
+  },
+  
   // Add more project objects as needed
 ];
 

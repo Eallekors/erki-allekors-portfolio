@@ -56,12 +56,16 @@ const Home = () => {
   return (
     <div className="home-page">
       <header className="hero">
-        <div className="hero-content">
-          <h1 className="hero-title">Welcome to My Portfolio</h1>
-          <p className="hero-subtitle">I'm a Front-end Developer</p>
-          <a href="#projects" className="cta-button">View My Work</a>
-        </div>
-      </header>
+    <div className="hero-content">
+        <h1 className="hero-title">Welcome to My Portfolio</h1>
+        <p className="hero-subtitle">I'm a Full-Stack Developer</p>
+        <p className="hero-description">Creating efficient and scalable solutions with a passion for innovation and design.</p>
+        <a href="#projects" className="cta-button">View My Work</a>
+
+        
+    </div>
+</header>
+
 
       <SlideInSection direction="right">
       <section className="about-section" id="about">
@@ -76,36 +80,63 @@ const Home = () => {
       <section className="skills-section" id="skills" ref={skillsRef}>
         <h2>My Skills</h2>
         <div className="skill">
-          <img src="https://via.placeholder.com/40" alt="JavaScript" className="skill-icon" />
+          <img src={require('../assets/pictures/html.png')} alt="HTML" className="skill-icon" />
           <div className="skill-info">
-            <span className="skill-name">JavaScript</span>
+            <span className="skill-name">HTML</span>
             <div className="progress-bar">
               <div className="progress" data-progress="90%">0%</div>
             </div>
           </div>
         </div>
         <div className="skill">
-          <img src="https://via.placeholder.com/40" alt="React" className="skill-icon" />
+          <img src={require('../assets/pictures/css.png')} alt="CSS" className="skill-icon" />
           <div className="skill-info">
-            <span className="skill-name">React</span>
+            <span className="skill-name">CSS</span>
+            <div className="progress-bar">
+              <div className="progress" data-progress="90%">0%</div>
+            </div>
+          </div>
+        </div>
+        <div className="skill">
+          <img src={require('../assets/pictures/js.png')} alt="JavaScript" className="skill-icon" />
+          <div className="skill-info">
+            <span className="skill-name">JavaScript</span>
             <div className="progress-bar">
               <div className="progress" data-progress="85%">0%</div>
             </div>
           </div>
         </div>
         <div className="skill">
-          <img src="https://via.placeholder.com/40" alt="CSS" className="skill-icon" />
+          <img src={require('../assets/pictures/React_Logo_SVG.svg.png')} alt="React" className="skill-icon" />
           <div className="skill-info">
-            <span className="skill-name">CSS</span>
+            <span className="skill-name">React</span>
             <div className="progress-bar">
-              <div className="progress" data-progress="80%">0%</div>
+              <div className="progress" data-progress="70%">0%</div>
             </div>
           </div>
         </div>
         <div className="skill">
-          <img src="https://via.placeholder.com/40" alt="HTML" className="skill-icon" />
+          <img src={require('../assets/pictures/mysql.png')} alt="MySQL" className="skill-icon" />
           <div className="skill-info">
-            <span className="skill-name">HTML</span>
+            <span className="skill-name">MySQL</span>
+            <div className="progress-bar">
+              <div className="progress" data-progress="90%">0%</div>
+            </div>
+          </div>
+        </div>
+        <div className="skill">
+          <img src={require('../assets/pictures/java.png')} alt="Java" className="skill-icon" />
+          <div className="skill-info">
+            <span className="skill-name">Java</span>
+            <div className="progress-bar">
+              <div className="progress" data-progress="50%">0%</div>
+            </div>
+          </div>
+        </div>
+        <div className="skill">
+          <img src={require('../assets/pictures/git.png')} alt="Git" className="skill-icon" />
+          <div className="skill-info">
+            <span className="skill-name">Git</span>
             <div className="progress-bar">
               <div className="progress" data-progress="90%">0%</div>
             </div>
@@ -116,16 +147,15 @@ const Home = () => {
       </SlideInSection>
 
       <SlideInSection direction="right">
-      <section id="experience">
-        <h2>Work Experience</h2>
-        <div class="experience-item">
-          <h3>Internship at Company Name</h3>
-          <p><strong>Position:</strong> Intern Title</p>
-          <p><strong>Duration:</strong> Month Year - Month Year</p>
-          <p><strong>Description:</strong> Briefly describe your responsibilities, projects, and what you learned during your internship.</p>
-        </div>
-       
-      </section>
+        <section id="experience">
+          <h2>Work Experience</h2>
+          <div class="experience-item">
+            <h3>Internship at ART-KON-TOR Digital</h3>
+            <p><strong>Position:</strong> Intern</p>
+            <p><strong>Duration:</strong> April 2024 - May 2024</p>
+            <p><strong>Description:</strong> Developed a URL status checker with login functionality as my primary internship project. Gained hands-on experience in Germany, enhancing my technical skills and understanding of real-world project development.</p>
+          </div>
+        </section>
       </SlideInSection>
 
       <SlideInSection direction="left">
@@ -136,16 +166,16 @@ const Home = () => {
         <div className="projects-grid">
           {/* Example Project Cards */}
           <div className="project-card">
-            <img src="https://via.placeholder.com/300" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Short description of Project 1.</p>
-            <a href="#" className="project-link">View Project</a>
+            <img src={require('../assets/pictures/West.png')} alt="Project 1" />
+            <h3>Client project</h3>
+            <p>Website that was created for a client turning school course</p>
+            <a href="https://westcar.eu/" className="project-link" target="_blank">View Project</a>
           </div>
           <div className="project-card">
-            <img src="https://via.placeholder.com/300" alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>Short description of Project 2.</p>
-            <a href="#" className="project-link">View Project</a>
+            <img src={require('../assets/pictures/aasta.png')}  alt="Project 2" />
+            <h3>Competition Aasta tegija 2024 project</h3>
+            <p>Website that was created from the design we were given for the competition</p>
+            <a href="https://eallekors.github.io/Aasta-Tegija-24/" className="project-link">View Project</a>
           </div>
           {/* Add more project cards as needed */}
         </div>

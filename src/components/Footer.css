@@ -19,6 +19,16 @@
     min-width: 200px;
     margin: 1rem;
   }
+
+  .footer-about a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s; 
+  }
+
+  .footer-about a:hover {
+    color: #ff6347;
+  }
   
   .footer h3, .footer h4 {
     color: #ff6347;

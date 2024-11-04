@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <NavLink to="/">MyPortfolio</NavLink>
+        <NavLink to="/">E-Portfolio</NavLink>
       </div>
       <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>
         <li>
@@ -24,9 +24,7 @@ const Navbar = () => {
         <li>
           <NavLink to="/projects" className="nav-link" activeClassName="active-link">Projects</NavLink>
         </li>
-        <li>
-          <NavLink to="/contact" className="nav-link" activeClassName="active-link">Contact</NavLink>
-        </li>
+      
       </ul>
       <button className="mobile-menu-icon" onClick={toggleMobileMenu}>
         {isMobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}

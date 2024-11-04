@@ -54,14 +54,4 @@
     color: #666;
   }
   
-  .project-link {
-    text-decoration: none;
-    color: #ff6347;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .project-link:hover {
-    color: #ff4500;
-  }
   
