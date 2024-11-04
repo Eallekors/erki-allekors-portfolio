@@ -13,13 +13,13 @@ const About = () => {
         />
         <div className="about-text">
           <p>
-            Hello! I'm <strong>Erki Allekõrs</strong>, a passionate front-end developer specializing in creating engaging and responsive web applications. With a keen eye for design and attention to detail, I strive to bring ideas to life through code.
+            Hi there! I'm <strong>Erki Allekõrs</strong>, a full-stack development enthusiast and a student based on the edge of Tartu, Estonia. Known for being friendly and approachable, I'm passionate about building impactful digital solutions and expanding my technical knowledge.
           </p>
           <p>
-            My journey in web development began with a love for technology and creativity. Over the years, I have honed my skills in HTML, CSS, JavaScript, and popular frameworks such as React and Vue.js. I'm always looking for new challenges to expand my skill set and build impactful digital experiences.
+            My current skill set includes a strong foundation in Java, HTML, CSS, JavaScript, and MySQL, along with some experience in C++. I enjoy the challenges that come with working across both the front end and back end of applications, constantly learning to improve my craft.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new places, reading tech blogs, or experimenting with photography.
+            When I'm not diving into code, you might find me exploring new technologies, connecting with fellow students and developers, or simply enjoying life in Tartu. I’m always open to new opportunities and connections in the tech world!
           </p>
         </div>
       </div>
