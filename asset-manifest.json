@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/erki-allekors-portfolio/static/css/main.45893c10.css",
-    "main.js": "/erki-allekors-portfolio/static/js/main.e387dd31.js",
+    "main.css": "/erki-allekors-portfolio/static/css/main.b6036558.css",
+    "main.js": "/erki-allekors-portfolio/static/js/main.bd21ea35.js",
     "static/js/453.6ed9fa9d.chunk.js": "/erki-allekors-portfolio/static/js/453.6ed9fa9d.chunk.js",
+    "static/media/aasta.png": "/erki-allekors-portfolio/static/media/aasta.7559e3c7774bd97b6a32.png",
+    "static/media/profiil.png": "/erki-allekors-portfolio/static/media/profiil.f0e1a9732987f1d60e1d.png",
+    "static/media/West.png": "/erki-allekors-portfolio/static/media/West.15b48205c326adc734b5.png",
+    "static/media/github.png": "/erki-allekors-portfolio/static/media/github.f79d7057c89199f63ce6.png",
+    "static/media/Intern.png": "/erki-allekors-portfolio/static/media/Intern.fec310c2a79501012e70.png",
+    "static/media/git.png": "/erki-allekors-portfolio/static/media/git.52ffcca1c2260d3a141b.png",
+    "static/media/React_Logo_SVG.svg.png": "/erki-allekors-portfolio/static/media/React_Logo_SVG.svg.e9055c73b3c0f4fbebcd.png",
+    "static/media/CV.pdf": "/erki-allekors-portfolio/static/media/CV.86f82551db5be71d08f2.pdf",
+    "static/media/css.png": "/erki-allekors-portfolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/java.png": "/erki-allekors-portfolio/static/media/java.275f9f3ed9245cd64864.png",
     "index.html": "/erki-allekors-portfolio/index.html",
-    "main.45893c10.css.map": "/erki-allekors-portfolio/static/css/main.45893c10.css.map",
-    "main.e387dd31.js.map": "/erki-allekors-portfolio/static/js/main.e387dd31.js.map",
+    "main.b6036558.css.map": "/erki-allekors-portfolio/static/css/main.b6036558.css.map",
+    "main.bd21ea35.js.map": "/erki-allekors-portfolio/static/js/main.bd21ea35.js.map",
     "453.6ed9fa9d.chunk.js.map": "/erki-allekors-portfolio/static/js/453.6ed9fa9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45893c10.css",
-    "static/js/main.e387dd31.js"
+    "static/css/main.b6036558.css",
+    "static/js/main.bd21ea35.js"
   ]
 }
