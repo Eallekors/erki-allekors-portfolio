@@ -167,7 +167,7 @@ const Home = () => {
           <div className="project-card">
             <img src={require('../assets/pictures/West.png')} alt="Project 1" />
             <h3>Client project</h3>
-            <p>Website that was created for a client turning school course</p>
+            <p>A website developed for a client as part of a school project</p>
             <a href="https://westcar.eu/" className="project-link" target="_blank">View Project</a>
           </div>
           <div className="project-card">

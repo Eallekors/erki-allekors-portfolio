@@ -4,7 +4,7 @@ import './Projects.css'; // Importing the CSS file for styling
 const projectsData = [
   {
     title: "Client project",
-    description: "Website that was created for a client turning school course",
+    description: "A website developed for a client as part of a school project.",
     image: require('../assets/pictures/West.png'), // Replace with actual image URL
     link: "https://westcar.eu/"
   },
