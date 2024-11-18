@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erki-allekors-portfolio/static/css/main.b6036558.css",
-    "main.js": "/erki-allekors-portfolio/static/js/main.f56e3afb.js",
+    "main.js": "/erki-allekors-portfolio/static/js/main.4373a383.js",
     "static/js/453.6ed9fa9d.chunk.js": "/erki-allekors-portfolio/static/js/453.6ed9fa9d.chunk.js",
     "static/media/aasta.png": "/erki-allekors-portfolio/static/media/aasta.7559e3c7774bd97b6a32.png",
     "static/media/profiil.png": "/erki-allekors-portfolio/static/media/profiil.f0e1a9732987f1d60e1d.png",
@@ -15,11 +15,11 @@
     "static/media/java.png": "/erki-allekors-portfolio/static/media/java.275f9f3ed9245cd64864.png",
     "index.html": "/erki-allekors-portfolio/index.html",
     "main.b6036558.css.map": "/erki-allekors-portfolio/static/css/main.b6036558.css.map",
-    "main.f56e3afb.js.map": "/erki-allekors-portfolio/static/js/main.f56e3afb.js.map",
+    "main.4373a383.js.map": "/erki-allekors-portfolio/static/js/main.4373a383.js.map",
     "453.6ed9fa9d.chunk.js.map": "/erki-allekors-portfolio/static/js/453.6ed9fa9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6036558.css",
-    "static/js/main.f56e3afb.js"
+    "static/js/main.4373a383.js"
   ]
 }
