@@ -51,7 +51,7 @@ const Home = () => {
         observer.unobserve(skillsSection);
       }
     };
-  }, []);
+  }, [handleScroll]);
 
   return (
     <div className="home-page">
