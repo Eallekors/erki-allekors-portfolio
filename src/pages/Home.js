@@ -168,13 +168,13 @@ const Home = () => {
             <img src={require('../assets/pictures/West.png')} alt="Project 1" />
             <h3>Client project</h3>
             <p>A website developed for a client as part of a school project</p> 
-            <a href="https://westcar.eu/" className="project-link" target="_blank">View Project</a>
+            <a href="https://westcar.eu/" className="project-link" target="_blank"  rel="noreferrer">View Project</a>
           </div>
           <div className="project-card">
             <img src={require('../assets/pictures/aasta.png')}  alt="Project 2" />
             <h3>Competition Aasta tegija 2024 project</h3>
             <p>Website that was created from the design we were given for the competition</p>
-            <a href="https://eallekors.github.io/Aasta-Tegija-24/" className="project-link" target="_blank">View Project</a>
+            <a href="https://eallekors.github.io/Aasta-Tegija-24/" className="project-link" target="_blank"  rel="noreferrer">View Project</a>
           </div>
           {/* Add more project cards as needed */}
         </div>
