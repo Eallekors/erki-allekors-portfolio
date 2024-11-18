@@ -73,8 +73,8 @@ const Home = () => {
         <p>
           I am a passionate developer with experience in creating responsive and engaging web applications. My expertise includes HTML, CSS, JavaScript, and React. I enjoy solving problems and learning new technologies.
         </p>
-        <a href="/About" className="learn-more">Learn More</a>
-      </section>
+        <a href="About" className="learn-more">Learn More</a>
+        </section>
       </SlideInSection>
       <SlideInSection direction="left">
       <section className="skills-section" id="skills" ref={skillsRef}>
