@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Home.css'; // Ensure your CSS is imported
 import SlideInSection from '../components/SlideInSection';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Home = () => {
   const skillsRef = useRef([]);
@@ -73,7 +74,7 @@ const Home = () => {
         <p>
           I am a passionate developer with experience in creating responsive and engaging web applications. My expertise includes HTML, CSS, JavaScript, and React. I enjoy solving problems and learning new technologies.
         </p>
-        <a href="About" className="learn-more">Learn More</a>
+        <Link to="/about" className="learn-more">Learn More</Link>
         </section>
       </SlideInSection>
       <SlideInSection direction="left">
@@ -162,6 +163,7 @@ const Home = () => {
       <section className="projects-section" id="projects">
         <h2>Some of my projects</h2>
         <p>Check out some of the projects I've worked on:</p>
+        <p>You can find my other projects <Link to="/projects" className="project-link">Here</Link></p>
         <div className="projects-grid">
           {/* Example Project Cards */}
           <div className="project-card">
