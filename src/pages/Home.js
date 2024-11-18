@@ -73,7 +73,7 @@ const Home = () => {
         <p>
           I am a passionate developer with experience in creating responsive and engaging web applications. My expertise includes HTML, CSS, JavaScript, and React. I enjoy solving problems and learning new technologies.
         </p>
-        <a href="/about" className="learn-more">Learn More</a>
+        <a href="/About" className="learn-more">Learn More</a>
       </section>
       </SlideInSection>
       <SlideInSection direction="left">
@@ -174,7 +174,7 @@ const Home = () => {
             <img src={require('../assets/pictures/aasta.png')}  alt="Project 2" />
             <h3>Competition Aasta tegija 2024 project</h3>
             <p>Website that was created from the design we were given for the competition</p>
-            <a href="https://eallekors.github.io/Aasta-Tegija-24/" className="project-link">View Project</a>
+            <a href="https://eallekors.github.io/Aasta-Tegija-24/" className="project-link" target="_blank">View Project</a>
           </div>
           {/* Add more project cards as needed */}
         </div>
