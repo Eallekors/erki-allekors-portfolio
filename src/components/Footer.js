@@ -21,7 +21,7 @@ const Footer = () => (
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/erki-allek%C3%B5rs-344aa0273/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/erki-allek%C3%B5rs-b4a796338/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i> LinkedIn
             </a>
           </li>

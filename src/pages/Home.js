@@ -13,7 +13,7 @@ const skills = [
   { name: 'PHP', icon: require('../assets/pictures/php.png'), proficiency: 'Intermediate', level: 'Intermediate', category: 'Programming' },
   { name: 'TypeScript', icon: require('../assets/pictures/Typescript.png'), proficiency: 'Intermediate', level: 'Intermediate', category: 'Programming' },
   { name: 'Vue 3', icon: require('../assets/pictures/vue.png'), proficiency: 'Intermediate', level: 'Intermediate', category: 'Programming' },
-  { name: 'Java', icon: require('../assets/pictures/java.png'), proficiency: 'User', level: 'User', category: 'Programming' },
+  { name: 'Java', icon: require('../assets/pictures/java.png'), proficiency: 'Intermediate', level: 'Intermediate', category: 'Programming' },
   { name: 'C++', icon: require('../assets/pictures/cpp.png'), proficiency: 'Beginner', level: 'Beginner', category: 'Programming' },
 
   // Database
@@ -52,6 +52,35 @@ const skillCategories = [
   { name: 'Hardware', color: '#9e9e9e' },
   { name: 'Networking', color: '#00bcd4' },
   { name: 'CAD', color: '#e91e63' },
+];
+
+const experiences = [
+  {
+    title: "Software Development Intern",
+    company: "Praktikal Education OÜ",
+    location: "Estonia",
+    duration: "Jan 2025 - May 2025 (5 months)",
+    sector: "Education / Science",
+    website: "https://www.praktikal.ee",
+    description: `Participated in the development of a virtual learning platform, mainly responsible for creating chart modules. Developed solutions to visualize student test results and other statistics using interactive charts. Contributed to front-end design and back-end data processing.`,
+  },
+  {
+    title: "Software Development Intern",
+    company: "ART-KON-TOR Digital",
+    location: "Germany",
+    duration: "Apr 2024 - May 2024 (2 months)",
+    sector: "Information Technology",
+    website: "https://art-kon-tor-digital.de",
+    description: `Worked on developing a domain monitoring website. Planned and implemented functionalities to allow users to track domain statuses. Involved in both front-end interface and back-end services.`,
+  },
+  {
+    title: "IT Specialist (Military Service)",
+    company: "Estonian Defence Force",
+    location: "Estonia",
+    duration: "Jan 2022 - Dec 2022 (1 year)",
+    sector: "Public Administration",
+    description: `Supported the staff and communications company with daily IT tasks. Responsible for network management, workstation setup, software installation, and user support.`,
+  },
 ];
 
 const Home = () => {
@@ -135,11 +164,23 @@ const Home = () => {
       <SlideInSection direction="right">
         <section id="experience">
           <h2>Work Experience</h2>
-          <div className="experience-item">
-            <h3>Internship at ART-KON-TOR Digital</h3>
-            <p><strong>Position:</strong> Intern</p>
-            <p><strong>Duration:</strong> April 2024 - May 2024</p>
-            <p><strong>Description:</strong> Developed a URL status checker with login functionality as my primary internship project. Gained hands-on experience in Germany, enhancing my technical skills and understanding of real-world project development.</p>
+          <div className="experience-list">
+            {experiences.map((exp, idx) => (
+              <div className="experience-item" key={idx}>
+                <h3>{exp.title}</h3>
+                <p>
+                  <strong>Company:</strong> {exp.company} {exp.website && (
+                    <span>
+                      | <a href={exp.website} target="_blank" rel="noreferrer">{exp.website.replace(/^https?:\/\//, '')}</a>
+                    </span>
+                  )}
+                </p>
+                <p><strong>Location:</strong> {exp.location}</p>
+                <p><strong>Duration:</strong> {exp.duration}</p>
+                <p><strong>Sector:</strong> {exp.sector}</p>
+                <p>{exp.description}</p>
+              </div>
+            ))}
           </div>
         </section>
       </SlideInSection>
